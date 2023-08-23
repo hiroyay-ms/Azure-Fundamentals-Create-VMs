@@ -1029,7 +1029,7 @@ Sep. 2023
 - クエリを記述し、実行
 
   ```
-  resource changes
+  resourcechanges
   | extend changeTime = todatetime(properties.changeAttributes.timestamp),
     targetResourceId = tostring(properties.targetResourceId), 
     changeType = tostring(properties.changeType), 
