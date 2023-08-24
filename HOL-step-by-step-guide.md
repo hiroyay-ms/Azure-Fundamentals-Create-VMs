@@ -25,7 +25,17 @@ Sep. 2023
 
 <br />
 
+## 事前準備環境
+
+<img src="images/mcw-preparation.png" width="400" />
+
+<br />
+
 ## Exercise 1: 仮想ネットワーク・仮想ネットワーク ピアリング
+
+<img src="images/mcw-exercise-1.png" />
+
+<br />
 
 ### Task 1: 仮想ネットワークの展開
 
