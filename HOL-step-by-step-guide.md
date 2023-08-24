@@ -25,7 +25,16 @@ Sep. 2023
 
 <br />
 
+## 事前準備環境
+
+<img src="images/mcw-preparation.png" />
+
+<br />
+
 ## Exercise 1: 仮想ネットワーク・仮想ネットワーク ピアリング
+
+<img src="images/mcw-exercise-1.png" />
+
 
 ### Task 1: 仮想ネットワークの展開
 
@@ -150,6 +159,8 @@ Sep. 2023
 <br />
 
 ## Exercise 2: 仮想マシンの展開と構成
+
+<img src="images/mcw-exercise-2.png" />
 
 ### Task 1: 仮想マシンの展開
 
@@ -313,6 +324,8 @@ Sep. 2023
 
 ## Exercise 3: Bastion を使用した仮想マシンへの接続
 
+<img src="images/mcw-exercise-3.png" />
+
 ### Task 1: 仮想マシンへの接続
 
 - 仮想マシンの管理ブレードで **Bastion** を選択
@@ -412,6 +425,8 @@ Sep. 2023
 <br />
 
 ## Exercise 4: 更新プログラム管理
+
+<img src="images/mcw-exercise-4.png" />
 
 ### Task 1: バッチ オーケストレーション オプションの設定
 
@@ -548,6 +563,8 @@ Sep. 2023
 
 ## Exercise 5: 仮想マシンの監視
 
+<img src="images/mcw-exercise-5.png" />
+
 ### Task 1: 監視の有効化
 
 - 仮想マシンの管理ブレードから **分析情報** 情報を選択し、**有効** をクリック
@@ -617,6 +634,8 @@ Sep. 2023
 <br />
 
 ## Exercise 6: 仮想マシンのバックアップ
+
+<img src="images/mcw-exercise-6.png" />
 
 ### Task 1: Recovery Services コンテナの作成と構成
 
@@ -779,6 +798,8 @@ Sep. 2023
 <br />
 
 ## Exercise 7: ファイルとフォルダーのバックアップ
+
+<img src="images/mcw-exercise-7.png" />
 
 ### Task 1: MARS エージェントのインストールとサーバーの登録
 
@@ -1017,6 +1038,8 @@ Sep. 2023
 <br />
 
 ## Exercise 8: 変更履歴の確認
+
+<img src="images/mcw-exercise-8.png" />
 
 ### Task 1: クエリの実行
 
