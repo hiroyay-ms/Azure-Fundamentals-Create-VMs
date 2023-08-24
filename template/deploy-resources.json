@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "networkSecurityGroup": {
+            "type": "string",
+            "defaultValue": "nsg-1",
+            "metadata": {
+                "description": "The name of the Network Security Group"
+            }
+        },
+        "logAnalyticsWorkspace": {
+            "type": "string",
+            "defaultValue": "log-1",
+            "metadata": {
+                "description": "Log Analytics Workspace"
+            }
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Network/networkSecurityGroups",
+            "apiVersion": "2022-09-01",
+            "name": "[parameters('networkSecurityGroup')]",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "securityRules": []
+            }
+        },
+        {
+            "type": "Microsoft.OperationalInsights/workspaces",
+            "apiVersion": "2021-06-01",
+            "name": "[parameters('logAnalyticsWorkspace')]",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "sku": {
+                    "name": "PerGB2018"
+                },
+                "retentionInDays": 30
+            }
+        }
+    ],
+    "outputs": {}
+}
