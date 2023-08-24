@@ -19,7 +19,7 @@ FY24
 
 <br />
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiroyay-ms%2FAzure-Fundamentals-Create-VMs%2Fmain%2Ftemplates%2Fdeploy-vnet-hub.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiroyay-ms%2FAzure-Fundamentals-Create-VMs%2Fmain%2Ftemplate%2Fdeploy-vnet-hub.json)
 
 ### パラメーター
 
@@ -45,7 +45,7 @@ FY24
 
 <br />
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiroyay-ms%2FAzure-Fundamentals-Create-VMs%2Fmain%2Ftemplates%2Fdeploy-resources.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiroyay-ms%2FAzure-Fundamentals-Create-VMs%2Fmain%2Ftemplate%2Fdeploy-resources.json)
 
 ### パラメーター
 
