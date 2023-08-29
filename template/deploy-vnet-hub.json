@@ -6,7 +6,7 @@
             "type": "string",
             "defaultValue": "vnet-hub",
             "metadata": {
-                "description": "description"
+                "description": "仮想ネットワーク名"
             }
         },
         "addressPrefix": {
@@ -20,14 +20,14 @@
             "type": "string",
             "defaultValue": "Subnet-1",
             "metadata": {
-                "description": "サブネット名 (1)"
+                "description": "サブネット名"
             }
         },
         "subnet1Prefix": {
             "type": "string",
             "defaultValue": "10.0.1.0/24",
             "metadata": {
-                "description": "サブネット アドレス範囲 (1)"
+                "description": "サブネット アドレス範囲"
             }
         },
         "bastionPrefix": {
